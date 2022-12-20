@@ -17,22 +17,23 @@
 
         if (X[0] === searchElemInArray)
         { booleanVar = true;} 
-        else {booleanVar = false;} 
-
-         if (X[1] === searchElemInArray)
-        { booleanVar = true;} 
+        
+        else if (X[1] === searchElemInArray)
+        { booleanVar = true}
          
-         if (X[2] === searchElemInArray)
+        else if (X[2] === searchElemInArray)
         { booleanVar = true;} 
         
-         if (X[3] === searchElemInArray)
+        else if (X[3] === searchElemInArray)
         { booleanVar = true;} 
         
-         if (X[4] === searchElemInArray)
+        else if (X[4] === searchElemInArray)
         { booleanVar = true;} 
     
-         if (X[05] === searchElemInArray)
+        else if (X[05] === searchElemInArray)
         { booleanVar = true;} 
+
+        else {booleanVar = false;} 
        
          document.getElementById("totalIntegers").innerHTML = booleanVar;
     </script>
