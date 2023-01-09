@@ -1,1 +1,1 @@
-# Javascript_Assignment
+# Exercise 1  Javascript Basics
